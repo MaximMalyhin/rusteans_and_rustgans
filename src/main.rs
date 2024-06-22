@@ -19,7 +19,7 @@ fn main() {
             "Warrior" => "Great choice! I think you wanna crush your enemies with rage and pathos >=|",
             "Wizard" => "Some magic and idk. Just cast your shit",
             "Scuf" => "what",
-            _ => { "think again retard..."; break }
+            _ => { "think again retard..."; continue }
         };
         break;
     }
