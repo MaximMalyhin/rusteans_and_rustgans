@@ -3,11 +3,11 @@ use std::io::stdin;
 fn main() {
     println!("version alpha 0.1");
 
-    println!("Welcome, traveller! Enjoy this text-based amazing journey\n");
-    println!("First, choose your class:\n");
-    println!("Warrior");
-    println!("Mage");
-    println!("Scuf");
+    println!("Welcome, traveller! Enjoy this text-based amazing journey\r");
+    println!("First, choose your class:\r");
+    println!("Warrior\r");
+    println!("Mage\r");
+    println!("Scuf\r");
 
     let mut answer = String::new();
 
